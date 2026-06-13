@@ -1,0 +1,22 @@
+# Actividad de Investigación: Balanceo Compuesto en Árboles AVL y Exposición vía Web APIs
+
+## 1. El Límite de las Rotaciones Simples y Desbalanceo en "Zig-Zag"
+
+**El Problema Cruzado**
+Las rotaciones simples (como RLL o RRD) fallan al intentar balancear inserciones en secuencias cruzadas (como 30, 10, 20) porque solo cambian la inclinación del desbalanceo de un lado a otro, en lugar de resolver la raíz del problema. Matemáticamente, una Rotación Doble Izquierda-Derecha (RID) se gatilla cuando ocurren las siguientes condiciones en los Factores de Equilibrio (FE):
+* El nodo padre (o abuelo) presenta un FE de -2, lo que indica que el subárbol izquierdo es más pesado.
+* El nodo hijo izquierdo presenta un FE de +1, lo que indica que el peso se concentra en su propio subárbol derecho.
+
+**Principio DRY (Don't Repeat Yourself)**
+Desde el punto de vista de la ingeniería de software, la principal ventaja de implementar operaciones compuestas (como la RID o RDI) reutilizando las primitivas de rotación simple es que se evita la necesidad de reasignar punteros manualmente desde cero. Esto reduce drásticamente la duplicación de código, hace que el mantenimiento del algoritmo sea mucho más seguro y minimiza la posibilidad de introducir comportamientos inesperados en la estructura del árbol.
+
+---
+
+## 2. Fundamentos de Arquitectura Web y Protocolo HTTP
+
+**El Modelo Cliente-Servidor**
+En la transición hacia arquitecturas web, la interacción se basa en un cliente (como un navegador) que solicita un recurso específico a un servidor. El flujo de datos ocurre de la siguiente manera: la información viaja empaquetada en una petición (Request) iniciada por el cliente, y el servidor, tras procesar la lógica correspondiente, devuelve los datos o el estado de la operación en una respuesta (Response).
+
+**Semántica de Operaciones: GET vs. POST**
+* **HTTP GET:** Es el método diseñado específicamente para la recuperación y lectura de la estructura de datos. Es una operación de solo lectura que no altera el estado del servidor.
+* **HTTP POST:** Es el método diseñado para la mutación o inserción de nuevos elementos en la estructura.
