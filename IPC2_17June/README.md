@@ -4,7 +4,7 @@ Este repositorio explica de forma sencilla cómo se estructuran los programas mo
 
 ---
 
-## Parte 1: Sistemas Distribuidos y Arquitectura Multi-Nivel
+## Parte 1.1: Sistemas Distribuidos y Arquitectura Multi-Nivel
 
 ### 1. El Problema del "Monolito"
 Un sistema monolítico es aquel donde la pantalla, la lógica y la base de datos están instalados en una misma computadora. 
@@ -27,7 +27,7 @@ Nunca se debe exponer una base de datos directamente a internet, ya que los hack
 
 ---
 
-## Parte 2: El Patrón de Código MVC
+## Parte 1.2: El Patrón de Código MVC
 
 ### 1. El Problema del "Código Espagueti"
 Ocurre cuando mezclamos consultas de base de datos (SQL), cálculos matemáticos y diseño visual (HTML) en un solo archivo. Esto es una mala práctica porque hace que el código sea casi imposible de leer, modificar o probar.
@@ -44,7 +44,7 @@ Usar MVC nos da un código con **Alta Cohesión** (cada archivo hace una sola co
 
 ---
 
-## Parte 3: Ciclo de Vida y Enrutamiento en .NET
+## Parte 2.1: Ciclo de Vida y Enrutamiento en .NET
 
 ### 1. Mapeo de URLs
 En ASP.NET Core, las rutas siguen la estructura: `{Controlador}/{Acción}/{ID}`.
