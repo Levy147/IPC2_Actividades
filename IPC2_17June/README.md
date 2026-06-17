@@ -1,42 +1,66 @@
-# Reporte Analítico: Arquitectura Multi-Nivel (N-Tier) y Patrón MVC
+# Reporte: Arquitectura Multi-Nivel y Patrón MVC
 
-Este repositorio contiene la fundamentación teórica y el análisis crítico sobre la evolución de los sistemas distribuidos, la separación de responsabilidades a nivel físico y lógico, y la implementación del patrón arquitectónico Modelo-Vista-Controlador (MVC).
-
----
-
-## 1. El Tránsito hacia los Sistemas Distribuidos y Multi-Capa
-
-### La Limitación del Monolito Local
-Cuando la interfaz, la lógica de negocio y el almacenamiento residen de forma exclusiva en una única máquina aislada, la escalabilidad se vuelve estrictamente vertical, dependiendo de la adquisición de hardware más potente. Además, la sincronización de datos es inviable para múltiples usuarios concurrentes porque el estado no se comparte en red, lo que genera cuellos de botella operativos y bloqueos transaccionales a nivel de base de datos.
-
-### Distinción Crítica: Layers vs. Tiers
-*   **Capas Lógicas (Layers):** Se refieren a la organización interna del código fuente (namespaces, carpetas, ensamblados) para mantener una separación estructurada de las responsabilidades lógicas dentro del software.
-*   **Niveles Físicos (Tiers):** Representan la infraestructura de despliegue real; es decir, las máquinas físicas, servidores o contenedores distintos donde se ejecuta de manera aislada cada capa lógica.
-
-### Responsabilidades en la Arquitectura de 3 Niveles
-1.  **Nivel 1 (Presentation Tier):** Tiene la misión exclusiva de interactuar con el usuario final, capturar sus entradas y mostrar la información procesada.
-    *   *Tecnología común:* Navegadores web, HTML/CSS/JS, React, Angular, Blazor.
-2.  **Nivel 2 (Application Tier):** Se encarga de procesar las reglas del negocio, los cálculos lógicos y las validaciones de seguridad centralizadas.
-    *   *Tecnología común:* Servidores backend con C# (.NET Core), Node.js, Java.
-3.  **Nivel 3 (Data Tier):** Su responsabilidad es garantizar la persistencia, integridad y recuperación segura de la información a largo plazo.
-    *   *Tecnología común:* Motores de bases de datos relacionales o NoSQL (SQL Server, PostgreSQL, MongoDB).
-
-### Seguridad Perimetral
-Exponer el puerto de una base de datos directamente a internet representa un error crítico de ingeniería que amplía la superficie de ataque, facilitando accesos no autorizados, ataques de fuerza bruta o inyecciones de código. La práctica estándar exige alojar la base de datos dentro de una red privada virtual (VPC) y configurar estrictas reglas de firewall para que acepte conexiones de forma exclusiva desde la dirección IP autorizada del Application Tier (Nivel 2).
+Este repositorio explica de forma sencilla cómo se estructuran los programas modernos, separando dónde se instalan (Niveles físicos) y cómo se organiza su código (Patrón MVC).
 
 ---
 
-## 2. Desacoplamiento Lógico con el Patrón MVC
+## Parte 1: Sistemas Distribuidos y Arquitectura Multi-Nivel
 
-### La Crisis del Código Espagueti
-Mezclar sentencias de acceso a datos (SQL), lógica matemática y etiquetas visuales (HTML) dentro de un mismo archivo físico destruye la mantenibilidad del software. Esta práctica imposibilita la reutilización del código, dificulta el rastreo de errores (debugging) y hace inviable la implementación de pruebas unitarias (Unit Testing), ya que no se puede probar una regla de negocio sin invocar dependencias de la interfaz gráfica o de la base de datos.
+### 1. El Problema del "Monolito"
+Un sistema monolítico es aquel donde la pantalla, la lógica y la base de datos están instalados en una misma computadora. 
+* **El problema:** Si el sistema necesita crecer, la única opción es comprar una computadora más cara. Además, si muchos usuarios entran al mismo tiempo, el sistema se satura y la base de datos se bloquea.
 
-### Separación de Preocupaciones (SoC)
-El patrón MVC resuelve este problema aislando los componentes en tres entidades con responsabilidades exclusivas:
+### 2. Diferencia entre Capas (Layers) y Niveles (Tiers)
+* **Capas (Layers):** Es la organización lógica. Básicamente, cómo ordenamos las carpetas y los archivos de código dentro de nuestro proyecto.
+* **Niveles (Tiers):** Es la separación física. Representa en qué servidor o computadora real está instalada cada parte del sistema.
 
-*   **Modelo (Model):** Representa las estructuras de datos, el estado de la aplicación y las reglas de negocio subyacentes. Es una entidad agnóstica a la interfaz; no debe conocer ni importarle cómo se exponen los datos al cliente.
-*   **Vista (View):** Es una entidad pasiva encargada exclusivamente de la presentación visual. Tiene estrictamente prohibido contener código de lógica de negocio, cálculos matemáticos complejos o consultas directas a los repositorios de datos.
-*   **Controlador (Controller):** Actúa como intermediario táctico y director de flujo. Intercepta las peticiones HTTP entrantes, solicita la información procesada al Modelo y transfiere esos datos limpios a la Vista correspondiente para su renderizado.
+### 3. Los 3 Niveles Físicos (3-Tier)
+1. **Nivel 1 (Presentación):** Es la cara del sistema. Se encarga únicamente de mostrar la información al usuario y capturar sus clics o textos. 
+   * *Ejemplos:* HTML, CSS, React, Blazor.
+2. **Nivel 2 (Aplicación):** Es el cerebro. Aquí se hacen los cálculos, se aplican las reglas del negocio y se valida la seguridad.
+   * *Ejemplos:* Servidores en C# (.NET), Node.js o Java.
+3. **Nivel 3 (Datos):** Es la memoria. Su único trabajo es guardar y recuperar información de forma segura.
+   * *Ejemplos:* SQL Server, PostgreSQL, MongoDB.
 
-### Métricas de Ingeniería de Software
-La implementación estricta del patrón MVC garantiza una **Alta Cohesión**, obligando a que cada componente tenga una única razón para cambiar (Single Responsibility Principle). De forma paralela, asegura un **Bajo Acoplamiento**, dado que los componentes interactúan mediante contratos e interfaces abstractas, permitiendo, por ejemplo, rediseñar completamente la interfaz gráfica de usuario sin necesidad de alterar una sola línea de código en la lógica de negocio o en el enrutamiento.
+### 4. Seguridad de la Base de Datos
+Nunca se debe exponer una base de datos directamente a internet, ya que los hackers podrían atacarla fácilmente. La regla de oro es que la base de datos debe estar en una red privada y **solo** el Nivel de Aplicación (Nivel 2) tiene permiso para comunicarse con ella.
+
+---
+
+## Parte 2: El Patrón de Código MVC
+
+### 1. El Problema del "Código Espagueti"
+Ocurre cuando mezclamos consultas de base de datos (SQL), cálculos matemáticos y diseño visual (HTML) en un solo archivo. Esto es una mala práctica porque hace que el código sea casi imposible de leer, modificar o probar.
+
+### 2. La Solución: Modelo, Vista y Controlador (MVC)
+El patrón MVC divide el código en tres partes para mantener todo ordenado:
+
+* **Modelo:** Maneja los datos y las reglas. No le importa cómo se ve la aplicación, solo le importan los datos.
+* **Vista:** Es la pantalla. Su única tarea es mostrar lo que el usuario ve. Tiene prohibido hacer cálculos o conectarse a la base de datos.
+* **Controlador:** Es el intermediario. Recibe las peticiones del usuario, le pide la información al Modelo y se la pasa a la Vista para que la muestre.
+
+### 3. Ventajas (Métricas de Ingeniería)
+Usar MVC nos da un código con **Alta Cohesión** (cada archivo hace una sola cosa bien) y **Bajo Acoplamiento** (podemos cambiar por completo el diseño de la Vista sin tener que tocar el código del Modelo).
+
+---
+
+## Parte 3: Ciclo de Vida y Enrutamiento en .NET
+
+### 1. Mapeo de URLs
+En ASP.NET Core, las rutas siguen la estructura: `{Controlador}/{Acción}/{ID}`.
+
+| URL que escribe el Cliente | Controlador que responde | Método que se ejecuta | Parámetro recibido |
+| :--- | :--- | :--- | :--- |
+| `.../ControlAcademico/Login` | `ControlAcademicoController` | `Login` | (Ninguno) |
+| `.../Estudiante/Historial/20260123` | `EstudianteController` | `Historial` | `20260123` |
+| `.../Asignacion/Detalle/10` | `AsignacionController` | `Detalle` | `10` |
+| `.../Home` | `HomeController` | `Index` (por defecto) | `(Ninguno)` |
+
+### 2. El Flujo Paso a Paso
+Cuando un usuario hace clic en un botón, este es el viaje de la información:
+
+1. **Petición:** El navegador envía la solicitud HTTP al servidor.
+2. **Ruta:** El sistema lee la URL y decide qué Controlador debe atenderla.
+3. **Procesamiento:** El Controlador recibe la petición y le pide al Modelo que busque o calcule los datos necesarios.
+4. **Respuesta interna:** El Modelo termina su trabajo y le devuelve los datos listos al Controlador.
+5. **Pantalla final:** El Controlador le entrega esos datos a la Vista, la cual genera el HTML final y se lo manda de regreso al usuario para que lo vea en su pantalla.
