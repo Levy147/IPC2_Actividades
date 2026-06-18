@@ -1,0 +1,93 @@
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\appsettings.Development.json
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\appsettings.json
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\Actividad 11 June IPC2.staticwebassets.runtime.json
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\Actividad 11 June IPC2.staticwebassets.endpoints.json
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\Actividad 11 June IPC2.exe
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\Actividad 11 June IPC2.deps.json
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\Actividad 11 June IPC2.runtimeconfig.json
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\Actividad 11 June IPC2.dll
+e:\Actividad 11 June IPC2\IPC2_17June\bin\Debug\net9.0\Actividad 11 June IPC2.pdb
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.GeneratedMSBuildEditorConfig.editorconfig
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.AssemblyInfoInputs.cache
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.AssemblyInfo.cs
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.csproj.CoreCompileInputs.cache
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.MvcApplicationPartsAssemblyInfo.cache
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.RazorAssemblyInfo.cache
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.RazorAssemblyInfo.cs
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.sourcelink.json
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\scopedcss\bundle\Actividad 11 June IPC2.styles.css
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\scopedcss\projectbundle\Actividad 11 June IPC2.bundle.scp.css
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\0wyjuy2jnd-b9sayid5wm.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\gfhf3j7hym-61n19gt1b8.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\qeu909s01o-xtxxf3hu2r.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\i1cxdqr3jy-bqjiyaj88i.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\mx59pxhmp4-c2jlpeoesf.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\gu44rkw8yh-erw9l3u2r3.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\mhn3jtdygq-aexeepp0ev.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\ftzjiiixgt-d7shbmvgxk.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\pp5sm5iggw-ausgxo2sd3.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\ck3jpcfs3d-k8d9w2qqmf.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\i9djc3t0wc-cosvhxvwiu.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\avoubbt8yf-ub07r2b239.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\ecpaulpsml-fvhpjtyr6v.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\b691606prb-b7pk76d08c.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\1xs9y1e13e-fsbi9cje9m.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\jxgyhramxh-rzd6atqjts.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\y65yzmoafp-ee0r1s7dh0.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\tn3xa5irdr-dxx9fxp4il.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\cnxows77vu-jd9uben2k1.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\1czawcyudl-khv3u5hwcm.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\87k1u4hnvk-r4e9w2rdcm.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\usxb1may1n-lcd1t2u6c8.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\hikn0ewein-c2oey78nd0.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\e0wmi5neow-tdbxkamptv.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\nzwmnfhwyx-j5mq2jizvt.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\f4vwtnyypg-06098lyss8.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\55zu4l3gu9-nvvlpmu67g.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\ft3iys61ao-s35ty4nyc5.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\zeaj53f9u3-pj5nd1wqec.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\ans6yqwwqg-46ein0sx1k.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\pvj4rtlgzh-v0zj4ognzu.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\kihx8pskns-37tfw0ft22.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\r158u2v3ld-hrwsygsryq.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\6zw71t5dtu-pk9g2wxc8p.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\m72q8e58e8-ft3s53vfgj.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\hvfsct4945-6cfz1n2cew.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\t2sawfa1k2-6pdc2jztkx.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\hfzwz4kk1l-493y06b0oq.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\hqm6q6sv8g-iovd86k7lj.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\xzgmgqotxw-vr1egmr9el.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\77h4j3aepu-kbrnm935zg.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\ls6fv33uaf-jj8uyg4cgr.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\fc020bwiph-y7v9cxd14o.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\0ampo9i87y-notf2xhcfb.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\pqzwz2y04g-h1s4sie4z3.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\8yic1spdqg-63fj8s7r0e.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\5gqophx2a0-0j3bgjxly4.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\9uwbylc8h5-47otxtyo56.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\qgb6m8yzlg-4v8eqarkd7.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\f0lzuf67ch-356vix0kms.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\y2sdhfcn58-83jwlth58m.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\q8bcxrrlk4-mrlpezrjn3.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\9au1xxhm7k-lzl9nlhx6b.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\nn0nnnuhbj-ag7o75518u.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\47ii79r9d2-x0q3zqp4vz.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\5hppdu6fuj-0i3buxo5is.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\2kow8om0yl-o1o13a6vjx.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\9x494f9f8x-ttgo8qnofa.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\8t1wzup1p2-2z0ns9nrw6.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\qrw3axayiu-muycvpuwrr.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\7cm1d47uzu-87fc7y1x7t.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\0rmic9m6jg-mlv21k5csn.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\72hft2m9cr-ob8i3yh2n3.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\compressed\bi42t9003i-ob8i3yh2n3.gz
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\staticwebassets.build.json
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\staticwebassets.build.json.cache
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\staticwebassets.development.json
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.dll
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\refint\Actividad 11 June IPC2.dll
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.pdb
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\Actividad 11 June IPC2.genruntimeconfig.cache
+e:\Actividad 11 June IPC2\IPC2_17June\obj\Debug\net9.0\ref\Actividad 11 June IPC2.dll

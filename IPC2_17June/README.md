@@ -64,3 +64,11 @@ Cuando un usuario hace clic en un botón, este es el viaje de la información:
 3. **Procesamiento:** El Controlador recibe la petición y le pide al Modelo que busque o calcule los datos necesarios.
 4. **Respuesta interna:** El Modelo termina su trabajo y le devuelve los datos listos al Controlador.
 5. **Pantalla final:** El Controlador le entrega esos datos a la Vista, la cual genera el HTML final y se lo manda de regreso al usuario para que lo vea en su pantalla.
+
+## Parte 3: Implementación Práctica - Sistema de Control
+Académico
+
+Creación del espacio de trabajo:
+Inicializa un proyecto web estructurado con soporte para controladores:
+Bash
+dotnet new webapp -o ControlAcademicoMvc
